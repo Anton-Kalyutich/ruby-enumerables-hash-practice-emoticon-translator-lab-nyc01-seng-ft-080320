@@ -18,11 +18,10 @@ def get_english_meaning(filename, emoticon)
     dictionary.each do |key, value|
       if value == emoticon
         return emotion
-      else
-        puts "Sorry, that emoticon was not found"
       end
     end
   end
+  puts "Sorry, that emoticon was not found"
 end
 
 def get_japanese_emoticon
