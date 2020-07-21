@@ -15,7 +15,8 @@ end
 def get_english_meaning(filename, emoticon)
   the_hash = load_library(filename)
   the_hash.each do |emotion, dictionary|
-    dictionary.each do |
+    dictionary.each do |key, value|
+      if value == emoticon
   
   
 end
