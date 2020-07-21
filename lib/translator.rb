@@ -20,8 +20,8 @@ def get_english_meaning(filename, emoticon)
         return emotion
       end
     end
-  end
-  puts "Sorry, that emoticon was not found"
+  endputs "Sorry, that emoticon was not found"
+  
 end
 
 def get_japanese_emoticon
