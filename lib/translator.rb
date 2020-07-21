@@ -30,6 +30,7 @@ def get_japanese_emoticon(filename, emoticon)
     if the_hash[emotion][:english] == emoticon
       return the_hash[emotion][:japanese]
     end
+  end
   
   
   return "Sorry, that emoticon was not found"
