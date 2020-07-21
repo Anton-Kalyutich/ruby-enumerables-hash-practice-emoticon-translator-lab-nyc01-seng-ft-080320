@@ -19,6 +19,8 @@ def get_english_meaning(filename, emoticon)
       if value == emoticon
         return emotion
       end
+    end
+  end
   
   
 end
