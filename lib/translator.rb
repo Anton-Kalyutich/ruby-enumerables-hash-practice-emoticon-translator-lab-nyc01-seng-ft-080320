@@ -18,8 +18,6 @@ def get_english_meaning(filename, emoticon)
     dictionary.each do |key, value|
       if value == emoticon
         return emotion
-      else
-        return 
       end
     end
   end
