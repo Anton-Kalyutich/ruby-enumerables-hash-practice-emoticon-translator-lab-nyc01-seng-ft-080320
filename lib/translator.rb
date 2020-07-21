@@ -26,6 +26,9 @@ end
 
 def get_japanese_emoticon(filename, emoticon)
   the_hash = load_library(filename)
+  
+  
+  
   return "Sorry, that emoticon was not found"
 end
 
